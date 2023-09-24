@@ -132,7 +132,7 @@ float FBM(vec3 p, float time) {
   p *= 2.f;
   a *= .7f;
 
-  //layer4, value noise
+  //layer4, blue noise
 
   r += a * starField(p*10.f, 0.2f);
   s += a;

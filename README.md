@@ -1,5 +1,28 @@
 # [Project 1: Noise](https://github.com/CIS-566-Fall-2022/hw01-fireball-base)
 
+## Live Demo
+
+[Live Demo](IwakuraRein.github.io/CIS-566-hw01-fireball)
+
+![img](/result1.gif)
+
+![img](/result2.gif)
+
+![img](/result3.gif)
+
+
+## Techniques
+
+- I pass the displacement value to the fragment shader to alter fire ball's color.
+- I used Perlin Noise and FBM in the fragment shader to create fire ball's pattern.
+- The four functions I used in the vertex shader's FBM:
+  - sine wave
+  - triangle wave
+  - smooth wave
+  - blue noise
+- I used Blue Noise to create the background.
+- The speed of morphing and pattern's movement, and the size of the pattern can be changed via GUI.
+
 ## Objective
 
 Get comfortable with using WebGL and its shaders to generate an interesting 3D, continuous surface using a multi-octave noise algorithm.
