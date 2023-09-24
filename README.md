@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-[Live Demo](IwakuraRein.github.io/CIS-566-hw01-fireball)
+[Live Demo](https://IwakuraRein.github.io/CIS-566-hw01-fireball)
 
 ![img](/result1.gif)
 
